@@ -1,1 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() 
+{   
+    int arr[]= {0, 1, 2, 1, 0, 2, 1, 0};
+    int n= sizeof(arr) / sizeof(arr[0]);
+    std::sort(arr,arr +n);
+     for(int i=0; i<n ; i++){
+     std::cout<<arr[i];
+     }
 
+
+     cout<<endl;
+     return 0;
